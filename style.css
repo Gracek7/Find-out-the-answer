@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: tahoma;
+}
+
+header{
+    background:url("img/bg.jpg")  center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, h2{
+    text-align: center;
+    color: #ddd;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+button{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height:70px;
+    padding:20px;
+    background:brown ;
+    border:3px solid darkred;
+    border-radius: 25px;
+    color:white;
+    font-size:20px;
+}
+
+button:hover {
+    background-color: darkred;
+    box-shadow: 2px;
+    cursor: pointer;
+}
